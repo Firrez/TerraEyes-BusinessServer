@@ -6,13 +6,24 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Grpc" Version="2.45.0" />
-        <PackageReference Include="Grpc.Tools" Version="2.45.0">
-          <PrivateAssets>all</PrivateAssets>
-          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-        </PackageReference>
         <PackageReference Include="Microsoft.AspNetCore.SignalR.Common" Version="5.0.16" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="protos\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="protos\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="protos\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="protos\**" />
     </ItemGroup>
 
 </Project>

@@ -1,13 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "oBkQTZJrl45+7FXAktBgJePs7cU+NdvuoMG4sGiec8wDh5HNPXmb5y6l211lOtoJWYq4MDy1c3c8vNAim4739Q==",
+  "dgSpecHash": "k1RR9y1qmE83JOq2p1J+LtgKzoEjvFdoif7S/FOSa1UhssnhOz07NirOrDZjITLDym3frL9asA5KMAduRNxFyA==",
   "success": true,
   "projectFilePath": "C:\\Users\\LineK\\RiderProjects\\TerraEyes-BusinessServer\\TerraEyes-BusinessServer\\TerraEyes-BusinessServer.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\LineK\\.nuget\\packages\\grpc\\2.45.0\\grpc.2.45.0.nupkg.sha512",
-    "C:\\Users\\LineK\\.nuget\\packages\\grpc.core\\2.45.0\\grpc.core.2.45.0.nupkg.sha512",
-    "C:\\Users\\LineK\\.nuget\\packages\\grpc.core.api\\2.45.0\\grpc.core.api.2.45.0.nupkg.sha512",
-    "C:\\Users\\LineK\\.nuget\\packages\\grpc.tools\\2.45.0\\grpc.tools.2.45.0.nupkg.sha512",
     "C:\\Users\\LineK\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\5.0.16\\microsoft.aspnetcore.connections.abstractions.5.0.16.nupkg.sha512",
     "C:\\Users\\LineK\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.16\\microsoft.aspnetcore.http.features.5.0.16.nupkg.sha512",
     "C:\\Users\\LineK\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\5.0.16\\microsoft.aspnetcore.signalr.common.5.0.16.nupkg.sha512",
@@ -20,8 +16,7 @@
     "C:\\Users\\LineK\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\LineK\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
     "C:\\Users\\LineK\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
-    "C:\\Users\\LineK\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
-    "C:\\Users\\LineK\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+    "C:\\Users\\LineK\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
   ],
   "logs": []
 }
