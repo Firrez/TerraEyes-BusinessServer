@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using TerraEyes_BusinessServer.Models;
 using TerraEyes_BusinessServer.Services;
+using TerraEyes_BusinessServer.Services.DataTranslator;
 
 namespace TerraEyes_BusinessServer.Network
 {

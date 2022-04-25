@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Globalization;
 using TerraEyes_BusinessServer.Models;
+using TerraEyes_BusinessServer.Services.DataValidator;
 
-namespace TerraEyes_BusinessServer.Services
+namespace TerraEyes_BusinessServer.Services.DataTranslator
 {
     public class MeasurementDataTranslator : IMeasurementDataTranslator
     {

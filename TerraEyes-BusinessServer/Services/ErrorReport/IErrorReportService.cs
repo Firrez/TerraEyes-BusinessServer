@@ -1,4 +1,4 @@
-﻿namespace TerraEyes_BusinessServer.Services
+﻿namespace TerraEyes_BusinessServer.Services.ErrorReport
 {
     public interface IErrorReportService
     {
