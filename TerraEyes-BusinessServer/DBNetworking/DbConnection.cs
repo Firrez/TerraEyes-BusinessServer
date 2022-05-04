@@ -3,16 +3,17 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
+using TerraEyes_BusinessServer.Models;
 
 namespace TerraEyes_BusinessServer.DBNetworking
 {
     public class DbConnection : IDbConnect
     {
         private string uri = "http://terraeyesdbserver.eu-central-1.elasticbeanstalk.com/";
-        public async Task<List<int>> GetTemperaturePointFromDb(string userId)
+        public async Task<List<TemperatureMeasurement>> GetTemperaturePointFromDb(string userId)
         {
             using HttpClient client = new HttpClient();
-            HttpResponseMessage responseMessage = await client.GetAsync($"{uri}/temperatures");
+            HttpResponseMessage responseMessage = await client.GetAsync($"{uri}temperatures");
             
             if (!responseMessage.IsSuccessStatusCode)
             {
@@ -20,7 +21,7 @@ namespace TerraEyes_BusinessServer.DBNetworking
             }
 
             string listAsString = await responseMessage.Content.ReadAsStringAsync();
-            List<int> temperatures = JsonSerializer.Deserialize<List<int>>(listAsString, new JsonSerializerOptions
+            List<TemperatureMeasurement> temperatures = JsonSerializer.Deserialize<List<TemperatureMeasurement>>(listAsString, new JsonSerializerOptions
             {
                 PropertyNamingPolicy = JsonNamingPolicy.CamelCase
             });
