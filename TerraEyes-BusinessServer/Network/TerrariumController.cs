@@ -18,6 +18,7 @@ namespace TerraEyes_BusinessServer.Network
             _measurementDataTranslator = new MeasurementDataTranslator();
         }
 
+        
         [HttpPost]
         public ActionResult MeasurementTransmission([FromBody] MeasurementRawInput input)
         {
