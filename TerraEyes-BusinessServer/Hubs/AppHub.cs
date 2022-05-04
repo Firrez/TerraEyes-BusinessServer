@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.SignalR;
 using TerraEyes_BusinessServer.DBNetworking;
+using TerraEyes_BusinessServer.Models;
 
 namespace TerraEyes_BusinessServer.Hubs
 {
@@ -13,7 +14,7 @@ namespace TerraEyes_BusinessServer.Hubs
             DbConnect = new DbConnection();
         }
 
-        public async Task<List<int>> TemperatureDataFromDataToAndroid(string userId)
+        public async Task<List<TemperatureMeasurement>> TemperatureDataFromDataToAndroid(string userId)
         {
             return await DbConnect.GetTemperaturePointFromDb(userId);
         }
